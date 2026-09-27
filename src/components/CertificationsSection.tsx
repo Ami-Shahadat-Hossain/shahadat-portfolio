@@ -4,6 +4,7 @@ const certifications = [
   {
     title: "SQA: Manual & Automation Testing",
     issuer: "Ostad Academy",
+    issuerUrl: "https://ostad.app/",
     date: "August 2026",
     credentialId: "",
     link: "https://ostad.app/",
@@ -11,30 +12,34 @@ const certifications = [
   {
     title: "Web Development with PHP and Laravel",
     issuer: "Ostad Academy",
+    issuerUrl: "https://ostad.app/",
     date: "August 2023",
     credentialId: "C6546",
-    link: "https://ostad.app/",
+    link: "https://drive.google.com/file/d/1dPjeFEx0KRZI2CLDHV4lIziy6h-fP1X6/view?usp=sharing",
   },
   {
     title: "PHP with Laravel",
     issuer: "BASIS-SEIP Academy",
+    issuerUrl: "https://seip.basis.org.bd/seip",
     date: "May 2023",
     credentialId: "BASIS214/OIC19/PHP9/17",
-    link: "https://seip.basis.org.bd/seip",
+    link: "https://drive.google.com/file/d/1LOoYhy6KYrgamsFdrUvOnwJtWEhfY_dX/view?usp=sharing",
   },
   {
     title: "Certified Ethical Hacker: CEH v11",
     issuer: "InfoSec Academy",
+    issuerUrl: "https://infosec.ac/",
     date: "October 2022",
     credentialId: "ISACH2202AH",
-    link: "https://infosec.ac/",
+    link: "https://drive.google.com/file/d/1vx6uuNtYprUUf_wA79O9eeD-xxTA11oF/view?usp=sharing",
   },
   {
     title: "Professional English Communication Skill",
     issuer: "WSDA NEW ZEALAND",
+    issuerUrl: "https://seip.basis.org.bd/seip",
     date: "May 2023",
     credentialId: "BASIS214/OIC19/PHP9",
-    link: "https://seip.basis.org.bd/seip",
+    link: "https://drive.google.com/file/d/18u0LL7MnmvqMpr4kcoJChR5zr71iO7VC/view?usp=sharing",
   },
   // {
   //   title: "MongoDB Certified Developer",
@@ -77,7 +82,20 @@ const CertificationsSection = () => {
                       {cert.title}
                     </h3>
                     <p className="text-muted-foreground text-xs font-mono mb-2">
-                      {cert.issuer}
+                      {cert.issuerUrl ? (
+                        <a
+                          href={cert.issuerUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1 hover:text-primary transition-colors"
+                          title={`Visit ${cert.issuer}`}
+                        >
+                          {cert.issuer}
+                          <ExternalLink size={12} aria-hidden="true" />
+                        </a>
+                      ) : (
+                        cert.issuer
+                      )}
                     </p>
                     <div className="flex items-center gap-2 text-xs text-muted-foreground font-mono">
                       <Calendar size={12} />

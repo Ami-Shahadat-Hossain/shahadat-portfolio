@@ -1,11 +1,17 @@
-import { Globe, Linkedin, Mail } from "lucide-react";
+import { Globe, Linkedin, Mail, Contact } from "lucide-react";
 import { SiGithub, SiDiscord } from "@icons-pack/react-simple-icons";
 
 const socialLinks = [
   {
-    icon: Globe,
+    icon: Contact,
     href: "https://ami-shahadat-hossain.github.io/profile-card/profile-card-shahadat.html",
-    label: "Portfolio",
+    label: "Profile Card Portfolio",
+    color: "text-foreground",
+  },
+  {
+    icon: Globe,
+    href: "https://shahadat-hossain-portfolio.vercel.app/",
+    label: "Portfolio Website",
     color: "text-foreground",
   },
   // { icon: Globe, href: "#", label: "Portfolio" },
