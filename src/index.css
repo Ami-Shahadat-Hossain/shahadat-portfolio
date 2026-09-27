@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 97%;
+    --foreground: 220 20% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 20%;
+
+    --primary: 220 60% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 15% 94%;
+    --secondary-foreground: 220 20% 30%;
+
+    --muted: 220 15% 94%;
+    --muted-foreground: 220 10% 50%;
+
+    --accent: 220 60% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 15% 88%;
+    --input: 220 15% 88%;
+    --ring: 220 60% 50%;
+
+    --radius: 0.5rem;
+
+    /* Custom tokens */
+    --font-mono: "JetBrains Mono", monospace;
+    --font-sans: "Inter", system-ui, sans-serif;
+
+    --nav-bg: 220 20% 97%;
+    --nav-active: 220 20% 20%;
+    --nav-active-foreground: 0 0% 100%;
+
+    --card-border: 220 15% 90%;
+    --social-icon-bg: 220 15% 94%;
+    --social-icon-hover: 220 60% 50%;
+
+    --tech-card-bg: 0 0% 100%;
+    --tech-card-border: 220 15% 90%;
+    --tech-card-hover-border: 220 60% 50%;
+
+    --footer-bg: 220 20% 15%;
+    --footer-foreground: 220 15% 85%;
+    --footer-muted: 220 15% 60%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 20% 10%;
+    --foreground: 220 15% 90%;
+
+    --card: 220 20% 13%;
+    --card-foreground: 220 15% 90%;
+
+    --popover: 220 20% 13%;
+    --popover-foreground: 220 15% 90%;
+
+    --primary: 220 60% 60%;
+    --primary-foreground: 220 20% 10%;
+
+    --secondary: 220 20% 20%;
+    --secondary-foreground: 220 15% 90%;
+
+    --muted: 220 20% 20%;
+    --muted-foreground: 220 15% 60%;
+
+    --accent: 220 60% 60%;
+    --accent-foreground: 220 20% 10%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 220 60% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-mono);
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply px-4 py-2 text-sm font-medium transition-all duration-200 rounded-full;
+    font-family: var(--font-mono);
+  }
+
+  .nav-link-active {
+    @apply bg-foreground text-background;
+  }
+
+  .nav-link-inactive {
+    @apply text-muted-foreground hover:text-foreground hover:bg-muted;
+  }
+
+  .section-title {
+    @apply text-lg font-semibold tracking-wide;
+    font-family: var(--font-mono);
+  }
+
+  .social-icon {
+    @apply w-9 h-9 rounded-full flex items-center justify-center;
+    @apply bg-transparent border border-border;
+    @apply transition-all duration-200;
+  }
+
+  .social-icon:hover {
+    @apply bg-transparent border-border;
+    transform: translateY(-2px);
+  }
+
+  .tech-card {
+    @apply p-4 rounded-lg border transition-all duration-300;
+    @apply bg-card border-border hover:border-primary hover:shadow-lg hover:-translate-y-1;
+  }
+
+  .experience-card {
+    @apply p-5 rounded-lg border bg-card;
+  }
+
+  .tab-button {
+    @apply px-4 py-2 text-sm font-medium transition-all duration-200;
+    font-family: var(--font-mono);
+  }
+
+  .tab-active {
+    @apply bg-foreground text-background rounded-md;
+  }
+
+  .tab-inactive {
+    @apply text-muted-foreground hover:text-foreground;
+  }
+
+  .main-card {
+    @apply bg-card border border-border rounded-xl shadow-sm;
+  }
+}
+
+@layer utilities {
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+}
+
+@keyframes ring-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-ring-spin {
+  animation: ring-spin 8s linear infinite;
+}
