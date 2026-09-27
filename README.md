@@ -1,73 +1,472 @@
-# Welcome to your Mohammad Shahadat Hossain project
+# Mohammad Shahadat Hossain — Portfolio
 
-## Project info
+<p align="center">
+  <img src="public/assets/shahadat.png" alt="Mohammad Shahadat Hossain" width="140" />
+</p>
 
-**URL**: https://Mohammad Shahadat Hossain.dev/projects/REPLACE_WITH_PROJECT_ID
+<h2 align="center">Mohammad Shahadat Hossain</h2>
 
-## How can I edit this code?
+<p align="center">
+  <strong>Software Engineer & Full-Stack Web Developer</strong>
+</p>
 
-There are several ways of editing your application.
+<p align="center">
+  Building modern, scalable, and business-focused software solutions.
+</p>
 
-**Use Mohammad Shahadat Hossain**
+<p align="center">
+  <a href="https://shahadat-hossain-portfolio.vercel.app/">
+    <strong>🌐 Live Portfolio</strong>
+  </a>
+  &nbsp; • &nbsp;
+  <a href="https://www.linkedin.com/in/mohammad-shahadat-hossain-54351a139/">
+    LinkedIn
+  </a>
+  &nbsp; • &nbsp;
+  <a href="https://github.com/Ami-Shahadat-Hossain">
+    GitHub
+  </a>
+</p>
 
-Simply visit the [Mohammad Shahadat Hossain Project](https://Mohammad Shahadat Hossain.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Mohammad Shahadat Hossain will be committed automatically to this repo.
+## 👨‍💻 About Me
 
-**Use your preferred IDE**
+I am a Software Engineer and Full-Stack Web Developer with professional experience building modern web applications, ERP systems, business management solutions, e-commerce platforms, and custom software.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Mohammad Shahadat Hossain.
+My core expertise includes **Laravel, PHP, JavaScript, Next.js, RESTful APIs, SQL, and full-stack application development**.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Currently, I am working on ERP software development, focusing on backend architecture, database design, business workflows, feature development, system improvements, and practical solutions for real-world business requirements.
 
-Follow these steps:
+Alongside my professional work, I am expanding my skills in **Python, FastAPI, Docker, cloud technologies, and Artificial Intelligence**, with a particular interest in **Generative AI, RAG, and AI Agents**.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Live Website
 
-# Step 3: Install the necessary dependencies.
-npm i
+🌐 **Portfolio:**
+https://shahadat-hossain-portfolio.vercel.app/
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+👤 **Profile Card:**
+https://ami-shahadat-hossain.github.io/profile-card/profile-card-shahadat.html
+
+---
+
+## ✨ Portfolio Features
+
+The portfolio website includes:
+
+- 👤 Professional profile and introduction
+- 💼 Work experience
+- 🛠️ Technical skills
+- 🚀 Selected projects
+- 🎓 Certifications
+- 🖼️ Project and professional gallery
+- 📚 Currently learning section
+- 📬 Contact information
+- 🔗 Social and professional profile links
+- 📱 Responsive design for desktop, tablet, and mobile
+- ⚡ Modern and optimized frontend
+- 🎨 Clean and professional UI
+- 🌙 Modern theme support
+
+---
+
+## 🧰 Tech Stack
+
+### Frontend
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- HTML5
+- CSS3
+- JavaScript
+
+### UI & Components
+
+- shadcn/ui
+- Lucide React
+- Simple Icons
+- Responsive design
+- Modern component-based architecture
+
+### Development Tools
+
+- Visual Studio Code
+- Git
+- GitHub
+- npm
+- Vite
+
+### Deployment
+
+- Vercel
+
+---
+
+## 💼 Professional Experience
+
+### Executive ERP
+
+**HKD Innovations Ltd.**
+Chattogram, Bangladesh
+**Jan 2026 – Present**
+
+Working on ERP software development and continuous system improvement across backend development, database design, business workflows, system architecture, and new module development.
+
+### Assistant Software Engineer
+
+**Tappware Solutions Ltd.**
+Chattogram, Bangladesh
+**May 2023 – Dec 2025**
+
+Worked on web application development, backend development, API integration, database management, feature implementation, client requirements, and application improvements.
+
+### Junior Software Engineer
+
+**Tappware Solutions Ltd.**
+Chattogram, Bangladesh
+**May 2022 – May 2023**
+
+Contributed to web application development, database operations, bug fixing, feature implementation, and ongoing software development while building a strong foundation in professional software engineering.
+
+---
+
+## 🛠️ Core Skills
+
+| Category       | Technologies                                        |
+| -------------- | --------------------------------------------------- |
+| Frontend       | HTML, CSS, JavaScript, Tailwind CSS, Blade, Next.js |
+| Backend        | PHP, Laravel, Python, Django, RESTful APIs          |
+| Database       | MySQL, PostgreSQL, SQLite, MongoDB, Redis           |
+| DevOps & Cloud | Linux, Git, CI/CD, Docker, AWS                      |
+| Tools          | VS Code, Postman, Figma, Jira, ClickUp              |
+
+---
+
+## 🚀 Selected Projects
+
+### RATC-PMS
+
+A web-based project management system developed for business operations and workflow management.
+
+**Technologies:** Laravel, PHP, JavaScript, SQL
+
+🔗 https://prac-sys.co.uk/
+
+---
+
+### Health Support BD
+
+A web-based healthcare-related platform focused on providing digital services and information.
+
+**Technologies:** Laravel, PHP, JavaScript, SQL
+
+🔗 https://www.healthsupportbd.com/
+
+---
+
+### Enterprise ERP System
+
+An enterprise resource planning system designed to manage business processes and operational workflows.
+
+Key areas include:
+
+- Development management
+- BOM management
+- Purchase orders
+- Supplier management
+- Business workflows
+- Database-driven operations
+- Reporting and tracking
+
+**Technologies:** Laravel, PHP, JavaScript, MySQL
+
+---
+
+### Development BOM & Purchase Order Management
+
+A business workflow system for managing development BOM materials, purchase orders, revisions, approvals, and tracking.
+
+Key features include:
+
+- Development style management
+- Color-based BOM management
+- Material management
+- BOM item tracking
+- Purchase order creation
+- PO revisions
+- Supplier management
+- Approval workflows
+- Audit history
+- PO tracking
+
+**Technologies:** Laravel, PHP, JavaScript, MySQL
+
+---
+
+### E-Commerce Platform
+
+A full-stack e-commerce solution with a Laravel API backend and modern Next.js frontend.
+
+Key features include:
+
+- Product management
+- Category management
+- Shopping cart
+- Order management
+- Payment confirmation
+- Shipping calculation
+- Customer management
+- REST API integration
+- Facebook Pixel and server-side order tracking
+
+**Technologies:** Laravel, PHP, MySQL, REST API, Next.js
+
+---
+
+### Business Document Management System
+
+A business application for managing customer information and business documents through a connected workflow.
+
+The system is designed around:
+
+**Buyer Information → Challan → Invoice → Money Receipt**
+
+Key features include:
+
+- Customer and delivery address management
+- Challan generation
+- Invoice generation
+- Money receipt generation
+- Automatic document numbering
+- Line-item calculations
+- Business document management
+
+**Technologies:** Laravel, PostgreSQL, Neon, PHP, JavaScript
+
+---
+
+## 📚 Currently Learning
+
+I am continuously expanding my software engineering skills beyond traditional full-stack web development.
+
+### AI & Cloud Engineering Roadmap
+
+```text
+CSE Background
+      ↓
+Laravel / Next.js
+      ↓
+Python
+      ↓
+FastAPI
+      ↓
+LLM / Generative AI
+      ↓
+RAG
+      ↓
+AI Agents
+      ↓
+Docker
+      ↓
+AWS / Azure
+      ↓
+AI Engineer
+```
+
+Current focus areas:
+
+- Python
+- FastAPI
+- REST APIs
+- Generative AI
+- LLM Applications
+- RAG
+- AI Agents
+- Docker
+- Cloud Technologies
+- AWS
+- Modern Software Architecture
+
+---
+
+## 🎯 Career Focus
+
+My professional interests include:
+
+- Full-Stack Web Development
+- Backend Engineering
+- Laravel Development
+- API Development
+- ERP & Business Software
+- Software Architecture
+- Cloud Technologies
+- Artificial Intelligence
+- Generative AI
+- RAG Applications
+- AI Agents
+
+I am particularly interested in combining **strong software engineering fundamentals with modern AI technologies** to build practical and scalable applications.
+
+---
+
+## 📂 Project Structure
+
+```text
+shahadat-hossain-portfolio/
+│
+├── public/
+│   └── assets/
+│       └── shahadat.png
+│
+├── src/
+│   ├── components/
+│   ├── hooks/
+│   ├── lib/
+│   ├── pages/
+│   └── ...
+│
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── vitest.config.ts
+├── tailwind.config.*
+└── README.md
+```
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+- Node.js
+- npm
+- Git
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Ami-Shahadat-Hossain/shahadat-hossain-portfolio.git
+```
+
+### Navigate to the Project
+
+```bash
+cd shahadat-hossain-portfolio
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The development server will start locally.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Create Production Build
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Preview Production Build
 
-## What technologies are used for this project?
+```bash
+npm run preview
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🌐 Deployment
 
-## How can I deploy this project?
+This project is deployed using **Vercel**.
 
-Simply open [Mohammad Shahadat Hossain](https://Mohammad Shahadat Hossain.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Production deployment follows this workflow:
 
-## Can I connect a custom domain to my Mohammad Shahadat Hossain project?
+```text
+Local Development
+       ↓
+Git
+       ↓
+GitHub
+       ↓
+Vercel
+       ↓
+Production
+```
 
-Yes, you can!
+Every update can be committed and pushed to the `main` branch:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```bash
+git add .
+git commit -m "Update portfolio"
+git push origin main
+```
 
-Read more here: [Setting up a custom domain](https://docs.Mohammad Shahadat Hossain.dev/features/custom-domain#custom-domain)
+The connected Vercel project can then build and deploy the latest version.
+
+---
+
+## 📱 Responsive Design
+
+The portfolio is designed to work across:
+
+- 💻 Desktop
+- 🖥️ Large screens
+- 📱 Mobile devices
+- 📲 Tablets
+
+The interface adapts to different screen sizes while maintaining a clean and accessible layout.
+
+---
+
+## 🔗 Connect With Me
+
+<p align="center">
+  <a href="https://github.com/Ami-Shahadat-Hossain">
+    GitHub
+  </a>
+  &nbsp; • &nbsp;
+  <a href="https://www.linkedin.com/in/mohammad-shahadat-hossain-54351a139/">
+    LinkedIn
+  </a>
+  &nbsp; • &nbsp;
+  <a href="https://discord.com/users/1072566988372713473">
+    Discord
+  </a>
+  &nbsp; • &nbsp;
+  <a href="mailto:shahadat.hunter@gmail.com">
+    Email
+  </a>
+</p>
+
+---
+
+## 📄 License
+
+This project is a personal portfolio website created by **Mohammad Shahadat Hossain**.
+
+The source code is available for learning and reference. Please do not present the project or its contents as your own work.
+
+---
+
+<p align="center">
+  <strong>Build. Learn. Explore. Improve. Repeat.</strong>
+</p>
+
+<p align="center">
+  © Mohammad Shahadat Hossain
+</p>
