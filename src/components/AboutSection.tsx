@@ -59,6 +59,13 @@ const education = [
     period: "2009 – 2011",
     description: "Science group with focus on Mathematics and Physics.",
   },
+  {
+    degree: "Secondary School Certificate (SSC)",
+    institution: "Al-Zaber Institute",
+    location: "Chattogram, Bangladesh",
+    period: "1997 – 2009",
+    description: "Science Group",
+  },
 ];
 
 const skills = [
